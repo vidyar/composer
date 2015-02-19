@@ -8,6 +8,8 @@ php:
   #- hhvm
  
  
+build_image: shippable/minv2
+ 
 before_script:
    # - sudo apt-get install parallel
     - rm -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini
